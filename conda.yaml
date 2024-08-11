@@ -1,22 +1,12 @@
-# channels:
-# - defaults
-# dependencies:
-# - python=3.6.8
-# - scikit-learn=0.21.3
-# - pip:
-#   - mlflow
-#   - cloudpickle==1.2.2
-# name: mlflow-env
-
-name: mlfow_tutorial
+name: housing-env
 channels:
   - defaults
 dependencies:
-  - python=3.8
-  - scikit-learn
+  - python=3.10
   - pandas
   - numpy
+  - scikit-learn=1.5.1
   - mlflow
   - pip
   - pip:
-      - urllib3
+    - cloudpickle
